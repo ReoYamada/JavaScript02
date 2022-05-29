@@ -1,0 +1,52 @@
+
+.container {
+    background-color: #b8ffff;
+    width: 200px;
+    padding: 1px;
+}
+
+#display {
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin: 10px 10px;
+    text-align: right;
+    
+}
+
+.number {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.btn {
+    width:30%;
+    
+}
+
+.SDPQ {
+    display: flex;
+    margin:5px;
+}
+
+.calculation {
+    display: flex;
+    margin: 5px;
+    
+}
+
+.calculation button {
+    flex: auto
+    
+}
+
+.button {
+    box-shadow: 0 4px #76797c;
+    margin:5px auto;
+}
+
+.button:active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
